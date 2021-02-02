@@ -1,0 +1,23 @@
+{
+    "name": "imagioding",
+    "displayName": "Imagioding",
+    "description": "Colors for code!",
+    "version": "0.0.2",
+    "icon": "Extension1.png",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "publisher": "RohitSingh",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Imagioding",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Imagioding-color-theme.json"
+            }
+        ]
+    }
+}
